@@ -2,6 +2,25 @@
     text-align: left;
 }
 
+.l-price-header {
+    text-align: center;
+}
+
+.product-feature {
+    display: flex;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.l-testimonials {
+    padding: 7em;
+    text-align: center;
+}
+
+.l-network {
+    padding: 7em;
+    text-align: center;
+}
 
 /*
  * -- BASE STYLES --
@@ -9,6 +28,7 @@
  */
 body {
     color: #526066;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h2,
@@ -26,7 +46,8 @@ p {
    * -- Layout Styles --
    */
 .l-content {
-    margin: 0 auto;
+    margin: 0;
+    text-align: center;
 }
 
 .l-box {
