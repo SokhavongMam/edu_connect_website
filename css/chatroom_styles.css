@@ -30,20 +30,23 @@
     text-align: center;
 }
 
+.rest {
+    margin-left: 12.5%;
+}
+
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
     overflow: hidden;
-    margin-left: 12.5%;
-    
+    text-align: center;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
     color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 14px 14px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -57,4 +60,18 @@
 /* Add a color to the active/current link */
 .topnav a.active {
     color: white;
+}
+
+.right-topnav {
+    text-align: right;
+}
+
+.left-topnav {
+    text-align: center;
+}
+
+.chatbox {
+    text-align: center;
+    padding-top: 20em;
+    font-size: 18px;
 }
